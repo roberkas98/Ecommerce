@@ -1,0 +1,35 @@
+
+@media (max-width: 580px) {
+    .titulo{
+        display: none;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+//main
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.titulo-seccion{
+    border-bottom: 1px solid lightslategray;
+}
+
+.carousel-inner{
+    max-height: 150px;
+}
